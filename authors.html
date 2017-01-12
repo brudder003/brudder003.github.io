@@ -26,6 +26,7 @@
       <a href="" id=logo title="Home">br</a>
       <nav id="menu">
         <ul>
+          <li class="w3-bottombar w3-border-white w3-hover-border-red" ><a href="/category/posts.html">posts</a></li>
           <li class="w3-bottombar w3-border-white w3-hover-border-red" ><a href="/category/python.html">Python</a></li>
         </ul>
       </nav>
@@ -35,7 +36,26 @@
 <br>
 <div class="w3-container col-main">
   <h1>About me</h1>
-  <br>
+  <br>  <div id="brett-rudder" class="w3-white w3-border w3-border-red" style="padding: 24px;">
+    <div style="display: flex; align-items: center;">
+    <img style="width: 120px; height: 120px;" src="/authors/brett-rudder.png" onerror="this.src='/theme/images/avatar.png'"</img>
+    <span class="w3-hover-text-dark-grey" style="font-size: 16pt; font-weight: bold; margin-left: 20px;">Brett Rudder</span>
+    </div>
+      <p style="font-size: 12pt; font-style: italic; margin-top: 36px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+      <div style="display: flex; flex-wrap: wrap;">
+        <ul class="social" style="flex-grow: 1; padding: 0px;  margin-top: 12px; margin-bottom: 0px;">
+          <li style="font-size: 18pt;"><a class="sc-twitter" href="https://twitter.com/yourprofile" target="_blank"><i class="fa fa-twitter"></i></a></li>
+          <li style="font-size: 18pt;"><a class="sc-instagram" href="https://instagram.com/yourprofile" target="_blank"><i class="fa fa-instagram"></i></a></li>
+          <li style="font-size: 18pt;"><a class="sc-github" href="https://github.com/yourprofile" target="_blank"><i class="fa fa-github"></i></a></li>
+        </ul>
+    <a class="w3-btn w3-red w3-right" style="margin-top: 12px;" href="/author/brett-rudder.html">All articles &#10093;</a>
+  </div>
+</div>
+<br>
+<br>
+<br>
+
   <h2>Other authors</h2>
   <br>    <div id="alexis-metaireau" class="w3-white w3-border w3-border-grey" style="padding: 24px;">
       <div style="display: flex; align-items: center;">
@@ -83,8 +103,8 @@
             <div>
                 <h6>Categories</h6>
                 <ul>
+                    <li class=""><a href="/category/posts.html">posts<a></li>
                     <li class=""><a href="/category/python.html">Python<a></li>
-                    <li class="empty"></li>
                     <li class="empty"></li>
                     <li class="empty"></li>
                 </ul>
@@ -95,10 +115,10 @@
         <h6>Top Tags</h6>
         <ul>
           <!-- Print the four most popular tags, sorted automatically with the setting TAG_CLOUD_SORTING = 'size' in pelicanconf.py -->
-          <li class=""><a href="/tag/pelican.html"> #pelican (1)</a></li>
-          <li class=""><a href="/tag/publishing.html"> #publishing (1)</a></li>
-          <li class="empty"></li>
-          <li class="empty"></li>
+          <li class=""><a href="/tag/json.html"> #JSON (1)</a></li>
+          <li class=""><a href="/tag/eia.html"> #EIA (1)</a></li>
+          <li class=""><a href="/tag/requests.html"> #requests (1)</a></li>
+          <li class=""><a href="/tag/python.html"> #python (1)</a></li>
         </ul>
       </div>
     </div>
@@ -110,10 +130,11 @@
  -->
               <li class=""><a href="/authors.html">Alexis Metaireau</a></li>
               <!-- <li class=""><a href="/authors.html#alexis-metaireau">Alexis Metaireau</a></li> -->
+              <li class=""><a href="/authors.html">Brett Rudder</a></li>
+              <!-- <li class=""><a href="/authors.html#brett-rudder">Brett Rudder</a></li> -->
               <li class=""><a href="/authors.html">Conan Doyle</a></li>
               <!-- <li class=""><a href="/authors.html#conan-doyle">Conan Doyle</a></li> -->
                <li class="empty"></li>
-              <li class="empty"></li>
           </ul>
       </div>
     </div>
